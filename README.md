@@ -11,5 +11,6 @@ like WebGL, Blender, Unity, ...
 -   The ./srf2obj script provides the core functional of the converting;
 -   The ./obj2csv.py script converts the OBJ format into vertex and surface files.
 
- <iframe height=850 width=90% src="https://observablehq.com/@listenzcc/free-surfer-cortex" frameborder=0 >
- </iframe>
+## Workshop
+
+I have initialized [visualization project](https://observablehq.com/@listenzcc/free-surfer-cortex "visualization project") to the OBJ files.
