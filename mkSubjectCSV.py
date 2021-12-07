@@ -97,7 +97,7 @@ for i in tqdm(range(len(file_table))):
 
     if se['type'] == 'scalar':
         values = readScalar(name)
-        pd.DataFrame(values).to_csv(os.path.join(
+        pd.DataFrame(values[:, -1]).to_csv(os.path.join(
             pwd, 'csv', subject, f'{hemi}-{name}.values.csv'))
 
 
